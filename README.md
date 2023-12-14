@@ -26,4 +26,4 @@ Based on property 1, the minimum will be one of the roots of the heap. Also note
 As the number decreases, a vertex may end up smaller than its parent. In this case, we move this vertex with all its subtrees to the root of the heap, marking the ancestor with an asterisk. If the ancestor has already been marked, then we repeat the operation until we reach the unmarked ancestor. Asymptotic complexity - amortized O(1).
 
 > [!WARNING]
-> However, do not forget that 1 operation and 1,000,000 operations have the same complexity, O(1). Therefore, Fibonacci heap operations often take much longer than regular binary heap operations.
+> However, do not forget that constants 1 and 1.000.000 have the same complexity, O(1). Therefore, Fibonacci heap operations often take much longer than regular binary heap operations.
